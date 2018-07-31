@@ -6,3 +6,4 @@ a=np.random.randint(5 , size=(3, 4))
 b=np.random.randint(6 , size=(3, 4))
 c = a*b
 print c[:,1]
+print c[:,2]
