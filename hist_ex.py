@@ -2,10 +2,9 @@
 import numpy as np
 import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
-
+#-----------------------------------
 mu, sigma = 100, 15
 x = mu + sigma*np.random.randn(10000)
-
 # the histogram of the data
 n, bins, patches = plt.hist(x, 20, normed=1, facecolor='green', alpha=0.75)
 #print n,bins
